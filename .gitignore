@@ -1,0 +1,6 @@
+# Virtual env
+practica/
+
+# MLFlow
+ejercicio-1/mlruns
+ejercicio-1/mlflow.db
