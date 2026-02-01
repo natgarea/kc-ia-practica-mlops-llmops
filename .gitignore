@@ -1,5 +1,8 @@
-# Virtual env
+# Virtualenv
 practica/
+
+# Python
+ejercicio-2/__pycache__
 
 # MLFlow
 ejercicio-1/mlruns

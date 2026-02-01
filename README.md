@@ -6,6 +6,7 @@ Modelo de clasificación con Scikit-learn y MLflow que incluye EDA, preprocesami
 ### Ficheros
 * [Notebook](ejercicio-1/modelo-sms-spam.ipynb)
 * [Screenshots](ejercicio-1/screenshots)
+* [Requirements](requirements.txt)
 
 ### Cómo ejecutar el entorno
 
@@ -30,5 +31,19 @@ jupyter notebook
 ```
 
 ## Ejercicio 2
+Generar dos ficheros .py: main y funciones, con al menos dos argumentos de entrada. He extraído la lógica del notebook del ejercicio 1 a un script, el fichero de requirements es el mismo.
+
+### Ficheros
+* [funciones.py](ejercicio-2/funciones.py)
+* [main.py](ejercicio-2/main.py)
+* [Requirements](requirements.txt)
+
+### Cómo ejecutar
+
+```bash
+python ejercicio-2/main.py --model nb --experiment-name 'sms spam classification'
+python ejercicio-2/main.py --model logreg --experiment-name 'sms spam classification'
+python ejercicio-2/main.py --model svc --experiment-name 'sms spam classification'
+```
 
 ## Ejercicio 3
